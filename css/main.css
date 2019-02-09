@@ -1,16 +1,94 @@
 /* you will add css rules for element selectors and IDs */
+#cougar {
+        background: #B26219;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+#lion {
+        background: #FFD5AE;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+#tiger {
+        background: #FFBD82;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.photo {
+        text-align:left;
+        padding-top:40px;
+        padding-bottom:40px;
+        max-width:50%;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
+}
+
+.text{
+      background:#fff;
+      color:#000;
+      max-width:50%;
+      padding:20px 40px 20px 40px;
+      margin-bottom:40px;
+      box-sizing: border-box;
+}
 
 
 /* you may add to or change the body rule */
+
 body {
     font-family: sans-serif;
-    color: #fff;
-    background: #000;
-}
-img {
-    max-width: 100%; /* DO NOT delete or change this line */
+    color: #000;
+    max-width: 100%;
+    margin:0;
+    box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;  /* DO NOT delete or change this line */
+}
+
+h2 {
+    text-align: center;
+}
+
+header{
+        background:#ccc;
+        padding:2rem;
+        margin:0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+    nav ul{
+          display: flex;
+          list-style: none;
+          margin:0;
+          }
+
+          nav ul li{
+            margin:0;
+            margin-left: 1rem;
+            background:#666;
+            padding: .6rem 1rem;
+            }
+
+footer{
+        background:#ccc;
+        padding: 2rem;
+        margin:0;
+        text-align: center;
+}
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
     B26219 cinnamon
